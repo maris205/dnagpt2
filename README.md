@@ -1,6 +1,3 @@
----
-license: apache-2.0
----
 DNAGPT2- The Best Beginner's Guide to Gene Sequence Large Language Models
 
 ### 1. Overview
@@ -60,3 +57,11 @@ Despite its simplicity, the tutorial covers comprehensive content, from building
 5.3 Usage of ESM3  
 5.4 Application of MedGPT  
 5.5 Application of LLaMA-gene
+
+
+### full data and video
+huggingface： https://huggingface.co/dnagpt/dnagpt2
+
+github：https://github.com/maris205/dnagpt2
+
+video：https://www.bilibili.com/video/BV1zEktYXEPK/
