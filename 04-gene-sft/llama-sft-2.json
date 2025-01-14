@@ -1,0 +1,602 @@
+[
+    {
+        "instruction": "Determine the Splice Site Prediction of following dna sequence, The result will be one of the following: Non-Splice Sites, Acceptor Sites, Donor Sites",
+        "input": "TTTTTCCCCTTTGCATACATAATATGACAATGAAATCATATAAAAGGTAAATATGCACTTTGAAGAAAAGCATTGACATGTATCTTTTTTAAAAGTCCATCAATTGTAACGTAAGGTTTTGTTGTTTTGACTTTCATCCTAGGTGAAATTTATCCCAAGATGTACCACATCTGTTTCTTTCTGGTGACATACATGGCACCACTGTGTCTCATGGTGTTGGCTTATCTGCAAATATTTCGCAAACTCTGGTGTCGACAGGTATATAGTTTCAAATATTTTGCGTGCATTATTCCTCCACACATAATTTGTTATTTGTTATTCCTTCCAAATATTTTGTCTGTGCTTTTTTTTTAGGATGCACTTATAAACAAAATTTAAGAATGCATTGAACCAATATAAC",
+        "output": "Donor Sites",
+        "model_response": "Non-Splice Sites"
+    },
+    {
+        "instruction": "Determine core promoter detection of following dna sequence, The result will be one of the following: Non-promoter, promoter.",
+        "input": "CCCGGCCCGCCCTGCGCCGGCGGCGGCGGCCCCAGTCTCCGCGCTGCTGAGGCGCGCCCGGCCGCTCCCA",
+        "output": "promoter",
+        "model_response": "promoter"
+    },
+    {
+        "instruction": "Determine promoter  detection of following dna sequence, The result will be one of the following: Non-promoter, promoter.",
+        "input": "CGGGTTGCCAAGAAGAAAGGAGAAGGAGAACAAAAAGGCAGGAGGACTCCCTTGGCAGAGATCCAGAGCAAAGGCAGCTGTTGCTTCTCATGAACACTCCAAAGTTTATCACAGTCACCTGTTACCCTAGCTGGCACAGGTCTTTGAAAGTGTGCTGGGAGTGTGTTTACATGTTTGTGTGTGCTTGTATGTTAAAGGTGCCCAGGTTAATACCAGGTGTATTAAAACGCCCTTGCCTGGCTAGTCCTTGTAGACCTTCTCTGAATGTTTTGGTGAATAAATCTGTTCTTCAGCAACCCT",
+        "output": "promoter",
+        "model_response": "promoter"
+    },
+    {
+        "instruction": "Determine promoter  detection of following dna sequence, The result will be one of the following: Non-promoter, promoter.",
+        "input": "ACACCATCCCCAACTCCGCCAAGGCCAGAATAAGATCCCGGATGCCAGGAGAGCCTACAGTTCACGACCGTGGGTGATGCTTTACGTTTAGATTCTCCGCCGGAGTCCCAGAGCTCGGTGTTCAGGATGATGAGAAGGCGTGGAACGAGGACTTCAAATCCCAGAGTGCAGTTCTGCCTGAGGCTTCTGCATGCTGGGAACTGAAGTCCCTGAGAAGAGGAGGTAAGGCGCTCCCGGCATGCAACGCGTAAGACTGCGACGGTACCGGGGCGGCGGGGAAGGACCGAGAGGCGGGAGGAG",
+        "output": "promoter",
+        "model_response": " Non-promoter"
+    },
+    {
+        "instruction": "Determine promoter  detection of following dna sequence, The result will be one of the following: Non-promoter, promoter.",
+        "input": "ACTCACTTCTTCCTAGAGCATCTCAGGGAAGTGGGGAACTTCATCAAAGGGGGCAGCCTTATGTTAGCAGCTAGAGGATTCCTAGGTAATTCCAGGAGTCAAAAAGAAGACCCTGAGAACTGGGGGAACCACTCATCCCATAACAGTGAAAGAAACACGGAATTCCTTCCTGATTTTCATCCTTGGGAGATGATGGACAATTGTAGCCAGATGGGAAAAGTTTCACTTCTTCCTCAGGGAGTTGTCGGGGGGTGCTTTGTATGACTGGATAGGCGTTAGATCAAGACAGAGAAGTCACTG",
+        "output": "promoter",
+        "model_response": "promoter"
+    },
+    {
+        "instruction": "Determine the Splice Site Prediction of following dna sequence, The result will be one of the following: Non-Splice Sites, Acceptor Sites, Donor Sites",
+        "input": "GAACAAATTTTGATTCATCTGACATTAGTTAGAATTAAATTATTATCTAGAGATTATAAATGTTGCATTAATCCTTCTTTAATTTAATAATTAAGATTTATAAGTATTCACAAATATATCTGGAATAAGTAATTTAAAAAGTCTTAAAACTTTAAGATTTGATATCAGGATATAAACATAATTCTATTTATTTATATTTTCCATTTGATATTTGATCCATCCTACTTTATGACTTTCTTTTCATCAAGAAACTGACCCAAAGACTTGAGGATTACTACTAAGGACTTTTCAGGGAAAATAAAAACGAAATAACCCACACCAAACAAAAAGCGGCGGTGGTACAGCCATAATACTTCCTGTTCCTTGTAGATCAATCTGGGACAAAGGCTGTCTAATATTT",
+        "output": "Donor Sites",
+        "model_response": " Non-Splice Sites"
+    },
+    {
+        "instruction": "Determine promoter  detection of following dna sequence, The result will be one of the following: Non-promoter, promoter.",
+        "input": "CCTAGCCCAAAGCCTGCGCACTGTCCTTGACACTGCTTCTTCCTAGGCCCCTCGCCCAAACTCTGCCTAGTTCGCCTCCTCACTCCCCTCACACTGGGCCCTCCCTTTCCTTCCCCCTCACTGTGCACCTCATGGGACCATGCCAGGGTATTCCCGCAGCCTCCTCGGTGGCCTGCCTCTATCTTCCTCCACACAGCTTCGGGAGGCTCTTTCCAAAGCACACATCTGACCACGTGACTGCCCTGCTCCAGAGCCTTCCGTGACTCCCCATTTCCGAGGGACGAGGTCTGGCCTGCTCCC",
+        "output": "promoter",
+        "model_response": "promoter"
+    },
+    {
+        "instruction": "Determine promoter  detection of following dna sequence, The result will be one of the following: Non-promoter, promoter.",
+        "input": "GTCTCTTGCCAGTTAGCTTAACAGACACTTTTAGCAGCCTATCATAACTTCGAATTGCCCAACCCTCAACCAATTACAACTAAAGCTTGGGCTAGGACGCTCCAGGTCCGGGCGGGGGCGAATACCGGGTTTAGGAAAAGGGGCGGTAAAGAGCGATGACGGGCGGGTATACTAAACCAATCAGAGAGGAGAGCTGCCGCCCCACTATCCAATGGATAGGTTAGAAGTATGAAAGAGGGTGGGCCTGTTGTCATGGGGGAGGTGGTGGCGCTTGGTGGCCACTGGCGGCCGAGGTAGAGG",
+        "output": "promoter",
+        "model_response": " Non-promoter"
+    },
+    {
+        "instruction": "Determine core promoter detection of following dna sequence, The result will be one of the following: Non-promoter, promoter.",
+        "input": "AAGAGACAGAAGCCTCCACATGTGTGCGACCGCAGAGGGGCGCGGGCGAGCGAGGAGACGTCTAGCCATT",
+        "output": "Non-promoter",
+        "model_response": "promoter"
+    },
+    {
+        "instruction": "Determine promoter  detection of following dna sequence, The result will be one of the following: Non-promoter, promoter.",
+        "input": "GTGGGCCGGGGACCACATCAACATGATGCGAGGGCCCGCCTGAGGGAGAGGCCGAGTCTCCAAAATTACGTTGTGTAGGACGTTAGATTTATACGACTAGTGGATAAGACCCCGCAGGCCGCTACTTAGTTAACGGCTCCTCAGTCCCTGCTTTGTGTGGACCAGAGTCGGTCCACAGTTCGGCGCTGGGAAAGGCTTTAAAAATAGGACCGGGAAGCTGAGAATTAGCGTACATGGCAACACGCTTACACACCCACTCCGGACTCCTCCCTCTCGGTTACATGACCCGCCAGAGCCCTC",
+        "output": "Non-promoter",
+        "model_response": " Non-promoter"
+    },
+    {
+        "instruction": "Determine the Splice Site Prediction of following dna sequence, The result will be one of the following: Non-Splice Sites, Acceptor Sites, Donor Sites",
+        "input": "CGAGAATCCTTTGAACCCTGGAGGTGGAGGTTGCAGTGAGCCGAAATTGCGCTACTGCAATCCAGCCTGGGTGACAGACTCTTGTCTCCACCAAAAAAAAAAAAAAAAAAAAAGAAGGAAGAAAATCACTTTTAGTTTTATCATCCAAAGATGACACCCTTCTTCAATATTTTGAATAATTCCACCCTGTCCTTTTCTAGCTATGGGGCTGTTATCTGACTGGTGGTAGCATTTTATTCCCTGTCACTGTTGTTGGGGTTGTGACAGATATTTCCCTCATCTATTATAAATGTTGTAAACCCACCCCTAATAACTGCATCTTATTTCATGCAGGGGCTACCCCATAACTTACTGACCTTTTCTGTTTTGTCATGAAGTGGGTTGGCCAGGAGCTGTACCC",
+        "output": "Donor Sites",
+        "model_response": " Donor Sites"
+    },
+    {
+        "instruction": "Determine core promoter detection of following dna sequence, The result will be one of the following: Non-promoter, promoter.",
+        "input": "GATCAAGAAGCGTGCACGTGTCCTCCACGCTCCATACTGGAAGTACATTGAATACATGGCGCCTCTTGGG",
+        "output": "Non-promoter",
+        "model_response": " Non-promoter"
+    },
+    {
+        "instruction": "Determine promoter  detection of following dna sequence, The result will be one of the following: Non-promoter, promoter.",
+        "input": "AGGTGTCTTTAAAGTACAGGTTAATGGTGAACATTTTCCCCCAGTGGCTTCACCTCATTCCTCCCACTGGCCTTACCCCTTCCTTCCCCAGTGGAAGCATTTTCAAAAGCAAAGATAATTTTCGCTGGTGAACTTCAGAACTTGCCTTCAGGGTTAGCTTCATGTAATTTTACCATTTCCCATCCCCATTCCCCACCACATTATGTCAAGATTCAAGTTATAAATTAACGTTTTACTTAGACTTTGAAAGAGATTTCATGAGTAATTTGAATGAACCTTGCTGAATTAATCTGAATAGCA",
+        "output": "Non-promoter",
+        "model_response": " Non-promoter"
+    },
+    {
+        "instruction": "Determine core promoter detection of following dna sequence, The result will be one of the following: Non-promoter, promoter.",
+        "input": "CGAATAAAAGTGCAGAGTTCTGATTTTGGAATGTCAGTCTTAGATGGGGCAAAGAGAAATCAAAACTTGA",
+        "output": "Non-promoter",
+        "model_response": "promoter"
+    },
+    {
+        "instruction": "Determine core promoter detection of following dna sequence, The result will be one of the following: Non-promoter, promoter.",
+        "input": "GCCGCGACCCCGGGAACCGTTATTGGCCGGGTCACAAGCCCGCCCGCCCGCTGCTGGAGCCGCGACCATG",
+        "output": "promoter",
+        "model_response": "promoter"
+    },
+    {
+        "instruction": "Determine core promoter detection of following dna sequence, The result will be one of the following: Non-promoter, promoter.",
+        "input": "GCGCATGCGACAGCGCCTGCGCAGTCATGTCTTAAGAATCCTTTGCGCTCTCGGTGCCCCCCTCCACGCC",
+        "output": "promoter",
+        "model_response": "promoter"
+    },
+    {
+        "instruction": "Determine the Splice Site Prediction of following dna sequence, The result will be one of the following: Non-Splice Sites, Acceptor Sites, Donor Sites",
+        "input": "GTTCTAGTATCTGCCCTTCTATTACAGCTTTTCACCCTTCCCTACAGGCCGGGGTTTGAAGTCTCACGCCTACATTCACAGTGTCCAGTTTAGCCACCATGTTTTCCTCAACCTCCACACCCTCAAGTTTTACTGCCTTCCAGACAACTATGAGATCATCGATTCCTCATTGGAGGATATCACGGTGTGTGTCTAAGAGGGTTGGTTTGGGGTCCATTCTTTAATGAGCCATCCCAGGGCTCCCAGGGGACTGCCCCACCTGAGGACAGGGAAGAATCTCAGTCCCTTTAGGCATCGAGAGGCTGCTTTCTCTTTTGGGAAGAACTGGGGAAACTGAGTAAGGTCAGAATTCATAATTGCAGCCTGTAGTCTGTAACTTAACTGTCATTTCTACTTGTAA",
+        "output": "Donor Sites",
+        "model_response": "Splice Sites"
+    },
+    {
+        "instruction": "Determine the Transcription Factor Prediction of following dna sequence, The result will be one of the following: Background Sequences, Binding Sites.",
+        "input": "GTCACCCAGGCTGGAGTGCAATGGCATGATTTCAGCTCACTGCAACCTCTGCCTCCTGGGCTCAAATGATTCTCCTGCCTCAGCCTCCTGAGCAGCTGGGA",
+        "output": "Background Sequences",
+        "model_response": " Background Sequences"
+    },
+    {
+        "instruction": "Determine core promoter detection of following dna sequence, The result will be one of the following: Non-promoter, promoter.",
+        "input": "CCACTCTTCTCGGAATTCCACCTGCCTACACAACAGATTCGTATCGCAAAAACTCTGCAGGTCCGAGTAC",
+        "output": "Non-promoter",
+        "model_response": " Non-promoter"
+    },
+    {
+        "instruction": "Determine promoter  detection of following dna sequence, The result will be one of the following: Non-promoter, promoter.",
+        "input": "CCTCAGCCGAAGAGAGGCGGGGAAAAGCATCGTAATCAGCTGCGTCGCCTTTTGGTGACGCCAGAGAGTGCGCGTCAGCAGTTTATTAGAGAGCTCTGTAGCCAGCCTCTTCTGCGCACCCACCTGCTGCATCTTAGTTCAGTCGGCTCTTAGAGTAGTAACCGCCAGAAAGGAGTCGGAAGAGGTCTCACGAGGCTGTCATCACCGCCATGCCCAAGAATAAAGGTACTGCTGTAAGCCTCTGGGACTATACCTCGGCTTGCTCTGCCAGTAACCCCGACGCCTGTTCCAGGCCGCAGT",
+        "output": "Non-promoter",
+        "model_response": " Non-promoter"
+    },
+    {
+        "instruction": "Determine core promoter detection of following dna sequence, The result will be one of the following: Non-promoter, promoter.",
+        "input": "TATGTCTGTGTGTGTGTGTGTGCGCGCGCGCGCGCGCGTCAGGGGCCAATGCTGGAAAGGAAACAGCGGA",
+        "output": "promoter",
+        "model_response": " Non-promoter"
+    },
+    {
+        "instruction": "Determine core promoter detection of following dna sequence, The result will be one of the following: Non-promoter, promoter.",
+        "input": "CCCCTCTGAGCTCCCGCTCCTGGCTCTGTAGCTGAGAGAAGCCCTGGCAGGTCAGTGGCAGGCACTGTCA",
+        "output": "promoter",
+        "model_response": "promoter"
+    },
+    {
+        "instruction": "Determine core promoter detection of following dna sequence, The result will be one of the following: Non-promoter, promoter.",
+        "input": "AAGAGGCCTACGTGCGGGTGGTCACCGAGAAGTCCCCGACCGACTGGTGGGCGGCGAGACGGGCCAGGGT",
+        "output": "promoter",
+        "model_response": "promoter"
+    },
+    {
+        "instruction": "Determine core promoter detection of following dna sequence, The result will be one of the following: Non-promoter, promoter.",
+        "input": "TTATCACTTCCCTGAGAAGAAAAACACATTTTCAGTTTTGCCTGCATCATAAGAGTGAGCACTCCATTGC",
+        "output": "promoter",
+        "model_response": " Non-promoter"
+    },
+    {
+        "instruction": "Determine core promoter detection of following dna sequence, The result will be one of the following: Non-promoter, promoter.",
+        "input": "CTCTCAGAGAATACCTAAGTGGTGAGGTCTGCTTGCTAGCTAGCTAGCTACCTACGTACCTACCTACCTT",
+        "output": "promoter",
+        "model_response": "promoter"
+    },
+    {
+        "instruction": "Determine promoter  detection of following dna sequence, The result will be one of the following: Non-promoter, promoter.",
+        "input": "GTATTGCTAATCCCCAGGAGCCCCGTTTAAAAAAAAAAAAAAAAAAAGGAAGAAAAAAGGGGAGGTGGGGGGACCGGGCAGCTGTCTCTTTAAATGTGATTTCCTTCTATTGTATTTGAATCGTGATCAGGAAAAAGGAAATGAAACCAGAGACAGAGGGAAGCTGAGCGAAAATAGACCTTCCCGAGAGAGGAGGAAGCCCGGAGAGAGACGCACGGTCCCCTCCCCGCCCCTAGGCCGCCGCCCCCTCTCTGCCCTCGGCGGCGAGCAGCGCGCCGCGACCCGGGCCGAAGGTGCGAG",
+        "output": "promoter",
+        "model_response": "promoter"
+    },
+    {
+        "instruction": "Determine core promoter detection of following dna sequence, The result will be one of the following: Non-promoter, promoter.",
+        "input": "ATATCGTCCCACAAAGGAAAAGAGTGGGGCACTGAGGAGCGGTCCTCGCAAAAAAGCGAGGAGCCCGATG",
+        "output": "Non-promoter",
+        "model_response": " Non-promoter"
+    },
+    {
+        "instruction": "Determine the Splice Site Prediction of following dna sequence, The result will be one of the following: Non-Splice Sites, Acceptor Sites, Donor Sites",
+        "input": "CCCCACCCTAAATGAAACCTATCATGTATAACATCACATTACCTGGAACAGGTTTGACTTGATTTAGTAAAACCGAATATACAAAAACGTGTACTAAAAGGTCAAGAGATAGAGAAATAATGTTTCAGTTTGAGAAATAAACATTTTTTTAACTTTAAATATTGACTTTTTTATGAATAAGGAAGCTTTTTATTTTACAGGTCTTTGTGGGAAGAAACAAATCACAAAAGCAATTAAGAGAGCTCAAACAATGGGTAAGAAAGAGCACCTCAACAACTGTATTGAGCTAGCTGAAATTTTGCTCATTATGCTTTGTCAAGAACTTTAATTATCTCTTTACAGGGTTTATGCCAGTTACATACAAGGATCCTGCATATTTCAGGGACCCTAAAGTTTATAA",
+        "output": "Non-Splice Sites",
+        "model_response": " Non-Splice Sites"
+    },
+    {
+        "instruction": "Determine promoter  detection of following dna sequence, The result will be one of the following: Non-promoter, promoter.",
+        "input": "ACGAGTACTCCTCTGAGAGACCTCCTTTGGATTGGTGGATGGTCAAGCCCCTTCTCTTTATGTCGGGGGTAGGCGGACCAATGTAAGCACAGCCAAAAAGTAAGAGCCGGCGGAACCCGCCGCTGGGTATGCTACGCCTTGCGTTCGTTTGGCCCCAAGGAGCAGACTTTTAATGCGTTACTCGTGCGGGAAAAAGGCCGACGGGGCGCGCGCGGCCTGGAGGGGGACTTGGTGATGCCAATTGGAAGCACCACATACCCCACAGATACCGCGCTGTAGGGAGCCTGTGCTGTGCCGCGC",
+        "output": "Non-promoter",
+        "model_response": " Non-promoter"
+    },
+    {
+        "instruction": "Determine core promoter detection of following dna sequence, The result will be one of the following: Non-promoter, promoter.",
+        "input": "ATCTGTAAAACTTAGCAGTTGCCTCAGCTGAGTATGTCTTCTAAAGATAATGTCGATTGTGTATGGCTGA",
+        "output": "promoter",
+        "model_response": " Non-promoter"
+    },
+    {
+        "instruction": "Determine promoter  detection of following dna sequence, The result will be one of the following: Non-promoter, promoter.",
+        "input": "GTTATCGCGAGCTCTTTTAGGATACCACATCAGAAAACACAGATGTTCCTAATCATGCTATGCCCACAGCTGGAAGTGCGCGGAACGCAGGCTACTTGTGATCTCAATTTTCACGTGTCATGAGCACTGTCCCACAGTCCGAGATGCAGCCAGTCATTAAAAAAATTAGTGCCAGACTAAAGCACCAGCTTATGATACAGTAACAGGCAGGAAGACTCACTACAGTCATCACCCCAACGCTAGAGGAATGAGACCCCTAACTTAGAGAGTGATCAAGTCCTGATCCTGTCCCTGGCGACT",
+        "output": "Non-promoter",
+        "model_response": " Non-promoter"
+    },
+    {
+        "instruction": "Determine the Transcription Factor Prediction of following dna sequence, The result will be one of the following: Background Sequences, Binding Sites.",
+        "input": "TCCCCTCCCAGACTTACTGGGCATGCAGCCGCTGAGGCCATACCCCTGCCTGAATCTGAGATTCTCTTCCTCCCGTGGGGTCCTAGCTCTTCCATCCCACT",
+        "output": "Binding Sites",
+        "model_response": " Background Sequences"
+    },
+    {
+        "instruction": "Determine core promoter detection of following dna sequence, The result will be one of the following: Non-promoter, promoter.",
+        "input": "GTTCATCAAATTCCGTTAAATTATGCTGAACGGGTGATGGCGCAGCTCCGCGGCCGCCAAGCCGAGGCGG",
+        "output": "Non-promoter",
+        "model_response": " Non-promoter"
+    },
+    {
+        "instruction": "Determine the Splice Site Prediction of following dna sequence, The result will be one of the following: Non-Splice Sites, Acceptor Sites, Donor Sites",
+        "input": "GGGTTTCACCCTGTTGGCCAGGCTGGTCTCAAACTCCTGACCTCAGGTGATCTGCCCACCTCAGCCTCCCAAAGTGCTGGGATTACAGGGGTGAGCCACCATGCCCGGCCATCTTTGTTCTCCCTTGAGGGCCCCTTCCTCCTCTTAAGCCCTGATAGCAGAAACCCACCCACCCACACCGTGGCTGTTTGTGTTGACAGGGGCTGACATCGCCAACATCTGCAATGAGGCTGCGCTGCACGCGGCGCGGGAGGGACACACTTCCGTGCACACTCTCAACTTCGAGTACGCCGTGGAGCGCGTCCTCGCAGGTACAGGGGGCGCGCCCTGGGTGAAGGCCCTCCTTAGCAGGGCTTGAACCCCAGAAATACCCAGGCAGGTATTGAGAGGTGAGGTGGAT",
+        "output": "Non-Splice Sites",
+        "model_response": " Non-Splice Sites"
+    },
+    {
+        "instruction": "Determine promoter  detection of following dna sequence, The result will be one of the following: Non-promoter, promoter.",
+        "input": "TGATAAGCCCGGTGGGCCTCTTTGGCTCTGGCGCGAAACACCCTCGCATCTTCGCGACCATGACGCGCTGCGCTCTAAGAGGTAGTCCCCCCGGGCGTGGTGCGGACCGGATGCTGTAACAAATGAGCCGTCTAGCCCTCGTAGGTCGGCGCCGGCGCTGTGCGTGATCTTTATCAGCACTCCCGAGAGCAGGTGAAAGTTAGTAGGTTACGGCTTTTCTCTTCCACATGAAAACCAAATGCAGGGCGTCTCACACCCAGGTTTACTGATGGATGGCCGCCACAGCTGTAGGTGCTGCTA",
+        "output": "Non-promoter",
+        "model_response": " Non-promoter"
+    },
+    {
+        "instruction": "Determine core promoter detection of following dna sequence, The result will be one of the following: Non-promoter, promoter.",
+        "input": "CGGAGCTTATTTTTTTTTTTTTTTTTTTTTTTACAAATAGTCTGTGGCAACCCTCATGTGAAGGTTTTAA",
+        "output": "Non-promoter",
+        "model_response": "promoter"
+    },
+    {
+        "instruction": "Determine core promoter detection of following dna sequence, The result will be one of the following: Non-promoter, promoter.",
+        "input": "GGGCGGAAAGCGCCGAGTTTTACCCAACCAATTAGAGTCGCTCATGCTTTTAAAACCCTTTCCATCAGCA",
+        "output": "Non-promoter",
+        "model_response": " Non-promoter"
+    },
+    {
+        "instruction": "Determine the Splice Site Prediction of following dna sequence, The result will be one of the following: Non-Splice Sites, Acceptor Sites, Donor Sites",
+        "input": "ACAAAATTTCAGGTCAATATCTCTGGTGAACATAGATGCAAAAATCTTCAACAGAATACTAGCAAATCAAATCTAGCAGCACATAAACAGAATTAAAACAAACATTGTATGATCATCTCAATAGATGCAGAAAAATCTCTAGATAAATTCCAACATACCTTCATCAAAAAAACTCTTAACAAACTAGGCATTAAAGGAACATTCCTTGAAGAGCCATCTGTGAAAAACCCACAGCCAACATCTGGGTAAAATCTGGAAGCATTACCCTTGAGGATGGAAACAAGACAAGGATGCCCACTCTCAGCACTCCTATTCATAATAGTATGGGAAATCCTAGCCAGAGCAATCAGACAAGAGAAAGAAATAAAGTGCATCCAAATAGGAAAAGAAAAAGTCAAAT",
+        "output": "Donor Sites",
+        "model_response": " Donor Sites"
+    },
+    {
+        "instruction": "Determine core promoter detection of following dna sequence, The result will be one of the following: Non-promoter, promoter.",
+        "input": "TTGCCGTGCCCCGGCCCCGCTCCAGTTCCCCAATGGGAGTGGTCTGACCGCGAGAACCAAGACTGAAACT",
+        "output": "Non-promoter",
+        "model_response": "promoter"
+    },
+    {
+        "instruction": "Determine core promoter detection of following dna sequence, The result will be one of the following: Non-promoter, promoter.",
+        "input": "CGCCTCCCTCCCTCTTTCCCCGCCTTGGCACTCAGTCGCCTCCCAGATGAGCACTCTCTCAGACCGCTGC",
+        "output": "promoter",
+        "model_response": "promoter"
+    },
+    {
+        "instruction": "Determine the Transcription Factor Prediction of following dna sequence, The result will be one of the following: Background Sequences, Binding Sites.",
+        "input": "ACCCCTGACTGCATCTGGGTAGCTTCGATCCACGCACATGTGGCGGGCACAGTGAGGCTGCCACCTGGTCAGACCTCGGGGCTGACCCTGCCTGACAGCAT",
+        "output": "Background Sequences",
+        "model_response": " Background Sequences"
+    },
+    {
+        "instruction": "Determine core promoter detection of following dna sequence, The result will be one of the following: Non-promoter, promoter.",
+        "input": "CTACACGATCGCGGGAAGATGCGTGTGATCCACATACGATGAGTAGCATCGAACGAAGATGGCGGGGCGA",
+        "output": "Non-promoter",
+        "model_response": " Non-promoter"
+    },
+    {
+        "instruction": "Determine the Transcription Factor Prediction of following dna sequence, The result will be one of the following: Background Sequences, Binding Sites.",
+        "input": "CGCCGCTGGCTCCGTCTGTTGGGGGGCGAACACGCCGCGGTCCTCGTCGTGGTGAGCGCAGCCACTCAGGCTGGTCCTGGGGGTGGGGCTGTAGGGGAAAG",
+        "output": "Binding Sites",
+        "model_response": " Binding Sites"
+    },
+    {
+        "instruction": "Determine core promoter detection of following dna sequence, The result will be one of the following: Non-promoter, promoter.",
+        "input": "GGCAGCGGCGCGGCCGAGCTCGTGGGAGACGCTATCGCAAGATGGCGTCTGCGAGGCCGCGGGATGCGGA",
+        "output": "promoter",
+        "model_response": "promoter"
+    },
+    {
+        "instruction": "Determine core promoter detection of following dna sequence, The result will be one of the following: Non-promoter, promoter.",
+        "input": "GAAGCAGTGTATCACCCAGCCGTAGGGGTGGGGGCTCTCCGTACAGTATGTGCTGCTCATATGGAGCAAT",
+        "output": "Non-promoter",
+        "model_response": " Non-promoter"
+    },
+    {
+        "instruction": "Determine core promoter detection of following dna sequence, The result will be one of the following: Non-promoter, promoter.",
+        "input": "GGGGTTGCTTCACCCCTGGACCTATAGGGCTCAGGTCGATCCCGCGGAGAAAGCCGTTTATGCCCATTTG",
+        "output": "Non-promoter",
+        "model_response": " Non-promoter"
+    },
+    {
+        "instruction": "Determine promoter  detection of following dna sequence, The result will be one of the following: Non-promoter, promoter.",
+        "input": "TAGGTCATTCGACTCACGAAAAGGAACCTAGCAAAGTTCCTCACCAAGAACCCAGACTTCCGTGTGGCTGTCGCATGTGGTTTTGGAATTCCAACGAGTGGTGCCGACCGCAGGATGCTACCCCTCACACCCTGCTGAAACGGCACGCGCGTGCGTTATCCTGCCTTACATTCGCTTCACTGCACCCCTTGGGGGAGGCTTTGTGATGTACTCATAATGTTGTCATGTGGTGCAGAGCTTAAACCCCCCAGTCCAAAATGAATCTCGTGCAGAGCTAGGTGCAGAGCTTCAGGCTGAGGC",
+        "output": "Non-promoter",
+        "model_response": " Non-promoter"
+    },
+    {
+        "instruction": "Determine core promoter detection of following dna sequence, The result will be one of the following: Non-promoter, promoter.",
+        "input": "TCTGAGGGAGCGGAGGTCTTCCTGTGCGAATCCTCAACATCCCGGGTGGTTACCATATTTCAGTCTGTGA",
+        "output": "Non-promoter",
+        "model_response": " Non-promoter"
+    },
+    {
+        "instruction": "Determine the Splice Site Prediction of following dna sequence, The result will be one of the following: Non-Splice Sites, Acceptor Sites, Donor Sites",
+        "input": "GCTTCCCTACCTCTCCCTATTTCCCACAAAACCTACATAATAGCTATCAGGATTACCTTGCTAAAGCAGAGGTGTGATCACTGTCATTTCCCACCTTCAGGTAGCTGGAAACCCCACAAAACGAGGATCATGCCCATTTAAATCCCGCAGCATTCTCCCTCTCGTTCTACTGATGCCGACTGGATCATTGTACTTGCCAAGTACAGTTTGTTTTTCTCCCCATTACTTGTGTTTTCTAGTTTCTCCACCAGATGGTGATGACAGTACAACTGGGAGCTTTGTGCCCTGTGTTCCTAGGCCAGTGCCAGGCCCACTTGAGGCGCTCACTAACTATGATATGAACGAATGAATGCTTGAGTGAATTGGTCCCCAGAAGCGGTCAGCCTCTCCGCCAAGGCAG",
+        "output": "Donor Sites",
+        "model_response": " Donor Sites"
+    },
+    {
+        "instruction": "Determine promoter  detection of following dna sequence, The result will be one of the following: Non-promoter, promoter.",
+        "input": "GCGCGGGCTGCTGAAGCCGGCGACAGAAGAACCAGCCGAACTAGGAAGCGCCGCGAAGGGGCGGGGCCTGCCGGGTTGGCCCCGCCCCACTTCCCCGATGGGCTTCATCTTGGCGCCTCCAGGCGGCTCCACAAAGTGAGAAACTCCACGTATTGCGTAGGGCGCGTCTTTACGTGGGCGCCTGCCCCTTTAATTACGCCCCTGTCGGAGGCTGAAACACTTAAGGCTTCCGGGCATGCGCACAGCGTTGTGCAAATGAATGCCTTCCACTGAACCGAGGTAGACGGGGTCGAGTTTCTT",
+        "output": "promoter",
+        "model_response": "promoter"
+    },
+    {
+        "instruction": "Determine core promoter detection of following dna sequence, The result will be one of the following: Non-promoter, promoter.",
+        "input": "AACCAAGCCGAGGCTTTCTGAGAAAGTGGGGCCAAACCTGTTGCCGTCTGACTGCCACGTGGCTCACTAT",
+        "output": "promoter",
+        "model_response": "promoter"
+    },
+    {
+        "instruction": "Determine core promoter detection of following dna sequence, The result will be one of the following: Non-promoter, promoter.",
+        "input": "CTGTCCGCCACGACTATGCTTCCCGGGCGGGGGCGGCGCTCCGGTGGGCGCGGCTGCGGGGGATCTCTAG",
+        "output": "Non-promoter",
+        "model_response": " Non-promoter"
+    },
+    {
+        "instruction": "Determine the Transcription Factor Prediction of following dna sequence, The result will be one of the following: Background Sequences, Binding Sites.",
+        "input": "GCGTTGGCGCCCCGGGTCAGGCTGCGAGGCCGCAATTATAGTGGGATGGGGCGGCCGCCCACGCGCCGCTTGGCGGTTCTTACGAGAACTTTGTTTGTGAC",
+        "output": "Binding Sites",
+        "model_response": " Binding Sites"
+    },
+    {
+        "instruction": "Determine promoter  detection of following dna sequence, The result will be one of the following: Non-promoter, promoter.",
+        "input": "AACAAAACACAACAAAACTTTTAATGAAATTAAAATACATGAACGCTGGCAGGAGGGAGACCTGTGAAGTTCCGCGGAAAGCTCGTGGTTCGAGTTAGCATACAGTCTACAAACACCATTATGTGTTCTGAGTCGTTGAGGGTTGGTGAAAGATGGAGGTGCGAACTTTGCCCTTTCCGCGAATAAAAAAGTACACTGGGACTTTCCCTCACTTCCGCATCCCGAAGTTAGAAACAGCGGGACTCAAAACCCCGACCCCAACACCCCCTCCTAACAACACCATTTGGCTTTCACTGGCTT",
+        "output": "promoter",
+        "model_response": " Non-promoter"
+    },
+    {
+        "instruction": "Determine core promoter detection of following dna sequence, The result will be one of the following: Non-promoter, promoter.",
+        "input": "CGGCGCAGTCCGGTGCGATTGGCCACCCCTGGCAGGAGCCGCACCTCGGACAGCAGCAGCGGCGGCGGCC",
+        "output": "promoter",
+        "model_response": "promoter"
+    },
+    {
+        "instruction": "Determine the Transcription Factor Prediction of following dna sequence, The result will be one of the following: Background Sequences, Binding Sites.",
+        "input": "GGTGTGATTGTGAAGGGATGCTGGCTCCAGCCTCAGCAGCTCAGTTTGGACTTGGCTTTGTGGCTGGGTGTGCTCTGTGATCAGGGAAGTCTGCAGCCAGG",
+        "output": "Background Sequences",
+        "model_response": " Binding Sites"
+    },
+    {
+        "instruction": "Determine promoter  detection of following dna sequence, The result will be one of the following: Non-promoter, promoter.",
+        "input": "AGCACCACTCGTGTCCTGGACGAAGCGGACTCTCCGCGCCACCGGCTGCTGGTGCTGGTGAAAGACCACGGTGAGCCGGCGCTGACAGCGACGGCCACGGTTCTGGTGTCGCTGGTGGAGAGTGGCCAGGCTCCAAAGGCGTCATCACGGGCGTCGGTGGGCGCCGCGGGCCCAGAGGCGGCGCTGGTGGATGTCAACGTGTACCTGATCATCGCCATCTGCGCGGTATCCAGCCTGCTGGTCCTCACGCTACTGCTGTACACAGCGCTGCGGTGCTCGGCGCCACCCACCGAGGGCGCG",
+        "output": "promoter",
+        "model_response": "promoter"
+    },
+    {
+        "instruction": "Determine promoter  detection of following dna sequence, The result will be one of the following: Non-promoter, promoter.",
+        "input": "GGCCAGGATGTCGTGGCAGTACCATTTACCCAGGGAATAACGTAACGTTTTACGCATTGACCTGGGCCTGGCCCTACATTTGAAATTATGGGCCCAACCACTTGACCTCTTAAAGAAATAAGACGGCCCGGGGCACCTGTTACCGCACCGTATTTCGGGTTGACAGGAAATGGAATCGAGATAGCCTCGCGCGTTTAGCTGGCCGCCGCCAGCTCAAAACAAGGACTCAATTAGCCACGTCAACACTCATCTAATCCGCCCGTCATAAGGGTGGTGAAGCGGTTGGGAAAGTGTCGGTTT",
+        "output": "Non-promoter",
+        "model_response": " Non-promoter"
+    },
+    {
+        "instruction": "Determine the Transcription Factor Prediction of following dna sequence, The result will be one of the following: Background Sequences, Binding Sites.",
+        "input": "AGGCGGCGGCTCCGCGGCGCCGGGCAGGGGCCGTCCGCGGGTCCGCGCCCTCGGGCGGCGGCGTCTCCTGGGTCCCGGCAGCCGTCCGCGCGCCCGGGCGC",
+        "output": "Background Sequences",
+        "model_response": " Background Sequences"
+    },
+    {
+        "instruction": "Determine promoter  detection of following dna sequence, The result will be one of the following: Non-promoter, promoter.",
+        "input": "GAATTGCTTAAACCCGGGAGGTGGAGGTTGCAGTGAGCCAAGATTTAGCCACTGCACTCACTCCAGCCTAGGTGACCAGAGAAAGACTCCATCTCAAAAAAAAAAAATATTTCTGTTTCTCACTCAGCCAGTTTCCATCTCAGCTGGGCCAGCTGCACTCCACCTGGTCCTCAAGCTAATAGATTTCACTTCCCTGAAGGCCCACAAAATCTTTTTTTTCTCTTTTTTTTTTCGTTGACACAGAATCTCACTCTGTCACCCAGGCTGGAGTGAAGTGGTACGATTACGGCTCACTGCAAT",
+        "output": "promoter",
+        "model_response": "promoter"
+    },
+    {
+        "instruction": "Determine core promoter detection of following dna sequence, The result will be one of the following: Non-promoter, promoter.",
+        "input": "AGTTAATTAGCCCCGCACGGCGAGGGGGGAGGCGCCAGTTTTCTGGGGACACTGGCTGCCACTGTACTCC",
+        "output": "promoter",
+        "model_response": " Non-promoter"
+    },
+    {
+        "instruction": "Determine promoter  detection of following dna sequence, The result will be one of the following: Non-promoter, promoter.",
+        "input": "GAGTCTCCTCCTCACCCGCACATCGCGGGGCTAGGATGGGATGTCGTGGCTGCCAAATCCTCCGAGGCAACTCCTGCCTGGGACGGCCTACCACAGGATGGGCCTGAGAATCCGGAGCGCAGGCTCGGGCCGCTAGGACACCTTCCCCCGCCCGCGGACCCAGCCTTCCAGCATCACCGGGGTTCGCGGAGGAGAAAGAGGAAAGGCGTTTGGCCTGCCAAGGCCGCCGTAGCGAGGGGGCGGGGCCCGGAAGAGCAGGATGGCGGCGCGGGACAGTGACAGCGAAGAAGATCTGGTCAG",
+        "output": "promoter",
+        "model_response": "promoter"
+    },
+    {
+        "instruction": "Determine the Splice Site Prediction of following dna sequence, The result will be one of the following: Non-Splice Sites, Acceptor Sites, Donor Sites",
+        "input": "CCCTGGCCCGATCACCGACCACTAACCGCCACCCACTAATGCCCCGGAGACCCCAGGTACGTCCGTCCTTGGGGGAGGGGAGCAGGGAGACTCGTCGGACGCCTTACCCCCCTCACGCCATCCCCGCAGGCTGTGTGTGGCGTTACGTCCGGGCCAGCGCCTCCTACTGCCCCTACCTGCCCCCACTGTGCGACCCCAAGGACGGGCACCTGCTGGTGGACGGGTGCTACGTTAACAACGTCCCAGGTCAGCGAGCCCATCGGGCCGGCTGGGCCTCCGGCGTGTCTGAGCGTGTCTGTGCGTGTTTGTGTCTGTGTGTCCCACCGCGCAGGCTCCCTGTGGCGGTACGTGCGCGCCAGCATGACGCTGTCGGGCTACCTGCCCCCGCTGTGCGACCCCA",
+        "output": "Donor Sites",
+        "model_response": "Non-Splice Sites"
+    },
+    {
+        "instruction": "Determine the Transcription Factor Prediction of following dna sequence, The result will be one of the following: Background Sequences, Binding Sites.",
+        "input": "GCAGCTGCGGGGCGGCCGGCGGCAGCGGGCGGCCGGCTCACGGCCAGAGCTAGCACAAACGGACTGGCGGCGCGGCGGCGAGGACGTGCAGAAAGCAGGAA",
+        "output": "Binding Sites",
+        "model_response": " Binding Sites"
+    },
+    {
+        "instruction": "Determine promoter  detection of following dna sequence, The result will be one of the following: Non-promoter, promoter.",
+        "input": "AGGAGAGAAGCGACAGTCGCGGGGCCCGGAAAAGAGAGACTTAGAGCGAAGCCAAAGGCGCCTTTCTTCACAGTTTGGGAACTTACTGGTAGTAAACGCCACTCCATAGAAGCGGTGACCGGTTACCATAGAGACCGCGTCGGGGTGGGCGGAGCGTCGCTTCTGAGCTGTGCCACGGCCACATCAGCTCGGCCAGAAACGCGAACACGTCGGAACAGTGACTTCCGGCGGAAGAAGAAGCCGGTCCGGAGTTCTGGCCGACAGCAGGCGAGGAGTGGGTAGCAGCGCCTATGTGAAGTT",
+        "output": "promoter",
+        "model_response": "promoter"
+    },
+    {
+        "instruction": "Determine the Splice Site Prediction of following dna sequence, The result will be one of the following: Non-Splice Sites, Acceptor Sites, Donor Sites",
+        "input": "CACCAGTTATCTTTCAGCTGGGTCAAAAGGATCTACTCTAATACTCTGGGTAATTCGTAATACAAAGAATTTCACTAGAAAATGTGTAATAATAAAGTGTAATTAATTTATAAACTTATCTAAAATTCCCAAATGGTGAGACACTAAATTTTAAGTTACCTAAAGCCAGAAGCTTATCTTTTTCACACTAGTCATAGGAAATGATTTTAATTTAATGTACTGATGTTAAGTTCAAGTCTAGTATTTTTGTTAAGTTACAATAATTACAATATTTACACTGTCGACCTTAGTCACAGCCCCCAAATGGACATAACAAAGGAAAGATAGTTGAAAACACAGGTGTTTGTTTGTATACGTAAGCAATCCGGTATTTAGGAAGCATACCTACAGCTCCATTTAA",
+        "output": "Donor Sites",
+        "model_response": " Donor Sites"
+    },
+    {
+        "instruction": "Determine core promoter detection of following dna sequence, The result will be one of the following: Non-promoter, promoter.",
+        "input": "AAGGCGTAACCCTTGGTCCCGCAGAGTTGCCCCTAAAATACCTGAACCTTGCTCCGAGAGGGAGTCCTCG",
+        "output": "Non-promoter",
+        "model_response": "promoter"
+    },
+    {
+        "instruction": "Determine the Transcription Factor Prediction of following dna sequence, The result will be one of the following: Background Sequences, Binding Sites.",
+        "input": "CCTGGGCCACGCCTCCCGGCGCACCGACGCGCCTCTCCGGTTACTAAGCGGCCTTGGATACCTGGCCGCGGGATGCTGGGCGGCGTCAGGTGAGCGGTGGT",
+        "output": "Binding Sites",
+        "model_response": " Binding Sites"
+    },
+    {
+        "instruction": "Determine the Splice Site Prediction of following dna sequence, The result will be one of the following: Non-Splice Sites, Acceptor Sites, Donor Sites",
+        "input": "TGTAATATATATAGTTCAGAAAACTAAATAAATTGTTTATTATTCTGGATTCAAACTAACCCAGAATTTTTACTTTTTTAAAGATGTTTTACATAGTTTTCTCAACTACCAGCCATAATCTAAAGAAAGGAAATGATTATTTTCCTTTGATATTTGTCTAAAAATAATTATGATTTCTTTTTTTTTCCCTGTAGTCCCAGAGAAACTTGGTCTCTGACAAATATTGCTATTAAAACACATACCTTTTGAAAATGGCAGTGTCAAAAATCATCGTATTATATGTGTATTATTATATTGTTATTGTCATTTTAGTTACTTTTTGTTTTACAATTCTTGCATTGTTTTTCACAGAAACTTCCTCTTAGATACCCAGAACGCCTTCAGGTAAATATTCTATTCT",
+        "output": "Donor Sites",
+        "model_response": " Donor Sites"
+    },
+    {
+        "instruction": "Determine core promoter detection of following dna sequence, The result will be one of the following: Non-promoter, promoter.",
+        "input": "CTGTCCTAGGCAAGGAGAGTTAGGTTTTTTTTGGTTGTTCGTGCTTCGGACCGATGGCACATGTTACGTG",
+        "output": "Non-promoter",
+        "model_response": " Non-promoter"
+    },
+    {
+        "instruction": "Determine the Splice Site Prediction of following dna sequence, The result will be one of the following: Non-Splice Sites, Acceptor Sites, Donor Sites",
+        "input": "CAACTCACTAATTTTACGCATGAGAAAACCTAAGCCTGGGATTAATCCTAAAATGTATAATCAGTCATGGTAGAGGCAGGCTGGAATCCAGATTCCTTGACTCACTGTGGGTATGTGATGTGTATAGTCCTTTACACTCCCAAGCTGAGTAGCAAAAATATATCTTTTCTCGCTTTTTTTTTTTTTTGAGACGGAGTCTGGCTCTGTCACTCAGGCTGGAGTGCAGTCACACGATCTCGGCTCACTGCAACCTCCACCTCCCAGGTTCAAGCAATTCTCCTGTCTCAGCCTCCCAAGTAGCTGGGATTACAGGTGCTGCCACCACCCCAGCTAAGTTTTGAATTTTTAGTAGAGACGGGGTTTCACCATGTTAGCCAGGGTGGTTTCAAACTCCTGACCT",
+        "output": "Donor Sites",
+        "model_response": " Donor Sites"
+    },
+    {
+        "instruction": "Determine promoter  detection of following dna sequence, The result will be one of the following: Non-promoter, promoter.",
+        "input": "CCCCTGAATTCTCATTGGCTGTCCCACTTTTCCCTCCACCCCCAGCACCGACCGCGCGCGGCTAGCCGCTGGGGAAGCGACTCTGAGTCCCGGGCTCGGAGCGCAGGCTCAGCTCCGCGCTGCGAGCGCTACGGGCGCAGGGGCGGGGAGCCGGCCCGGAGCGCAGTTTCCAGTGGGGCCGGGGTTTCACCCGGGCCCTCTCTGTTTGAACCGAACCCGACAAATGGGCGCATGACGATGGAGAGCAGGGAAATGGACTGCTATCTCCGTCGCCTCAAACAGGAGCTGGTAAGAGCGAAG",
+        "output": "Non-promoter",
+        "model_response": "promoter"
+    },
+    {
+        "instruction": "Determine core promoter detection of following dna sequence, The result will be one of the following: Non-promoter, promoter.",
+        "input": "ACGCCCGCCCTGGCCGAGCGTAGCTGGCGGACCAGAGCCGGTAGCGAGGTTGGGAGAGACGGAGCGGACC",
+        "output": "promoter",
+        "model_response": "promoter"
+    },
+    {
+        "instruction": "Determine core promoter detection of following dna sequence, The result will be one of the following: Non-promoter, promoter.",
+        "input": "GAAGCCCCGGCTCAGGGGGCTGGAAAACCCCAGGCTTTTCTCAGGCAGGTTGTCCCACAGCAGAGACAAC",
+        "output": "promoter",
+        "model_response": "promoter"
+    },
+    {
+        "instruction": "Determine core promoter detection of following dna sequence, The result will be one of the following: Non-promoter, promoter.",
+        "input": "GCGAGGAGGCGGGCGAGCCGGGTCCCCGGGAGCGCAGAGGAGGCTCGGAGGGGGGCGGAGAGCGGCGGGG",
+        "output": "promoter",
+        "model_response": "promoter"
+    },
+    {
+        "instruction": "Determine core promoter detection of following dna sequence, The result will be one of the following: Non-promoter, promoter.",
+        "input": "TAGTTAACCGTTCCGTGCGGTAACCTTGACGGGTACCGCAGAGAAAGCTTTCCAGAGAGTATTCCACATA",
+        "output": "Non-promoter",
+        "model_response": " Non-promoter"
+    },
+    {
+        "instruction": "Determine the Splice Site Prediction of following dna sequence, The result will be one of the following: Non-Splice Sites, Acceptor Sites, Donor Sites",
+        "input": "TGCAGTTTCTGCTTTAAGATCTCCATTATTGAGTTATCCTCATCTTTGTTTTTTGTTGGCTAATGGACATAAGCTAAAGAGTGCTGTTTGTTATTTATTCTAGGAAGTGCGCTGGAGAAATCCTTAGCTGTCAGCCAAGGTGGAGAGCTCTATGAAGAGTGGCTGGAACTTAGAAACGGTTGCCTCTGCTGTTCAGTGAAGTGAGGAATGTGTTTACTGTGTACATGGTTTACTAGAAATGTTTATTGATTATATTTCCAGCTTTAATTTTCTTGAGTAATTTAACTGAATTTACACAGTTTGCTTCATTGTATTTTCAAACAAATAGAAAATAAACTTATTAGGAAGCATTTTCTTAAAGTGTTTTTGCTGTCTTTTCTATCTGCTCTAATGTTTTGGT",
+        "output": "Acceptor Sites",
+        "model_response": " Acceptor Sites"
+    },
+    {
+        "instruction": "Determine core promoter detection of following dna sequence, The result will be one of the following: Non-promoter, promoter.",
+        "input": "GTCGGTCCTCCAGAGACAGAGGGGCCGGAAGTTCTCTTCACGGAGCCGCGCGGCTGCGGGGGCGCAAATA",
+        "output": "promoter",
+        "model_response": "promoter"
+    },
+    {
+        "instruction": "Determine the Splice Site Prediction of following dna sequence, The result will be one of the following: Non-Splice Sites, Acceptor Sites, Donor Sites",
+        "input": "CTAGGCGTTTGTAGCGTCCCCGTTCCTACTTGACCTGTGTGAGGGGCCTGGTCGTGCTCAGCTTCCTATTCTGCAGGCCTTGGGAGCTGCTGGCTGCTGGATGTAGGGTGTCGGGCAGTGCTGACCGAGGCTTTGACACTAACCTGTTCTTTATCAGCTCGGCTCTTTCCCCTTTGGTGTACTCTTAATGATTTCAAAAAGTAAAGAACTCCGTTGAGATGGCTGTTAACAAAGTGGAAACCGGTCTCTGACACGGCAGAGAGACACTGCTGTTTCTCTTCTCCGGGTCCAGAAAGTGCCTGCTGGCTTGGCCCCTCCTCATTGGCGGGGGAGGTGGGGGGTGCTGGTGCTGACTGTCTGCGTCTTATGTTTCAGGCCCAAGGTCCCGGAGGCTATGGCA",
+        "output": "Donor Sites",
+        "model_response": " Donor Sites"
+    },
+    {
+        "instruction": "Determine the Splice Site Prediction of following dna sequence, The result will be one of the following: Non-Splice Sites, Acceptor Sites, Donor Sites",
+        "input": "GAGACAAAATAGTACTTGCTTCAAGTCCTTCCCAGGGTTGTTGTGAGCATTGAATGAGTATTACATGTTAATCACTAAGAAGAATGCTTTTTATGAAATATAAAGTAAGCTATTACAGTATATTGAAATGCTATTGTGAAATCAGATTTCTGTTTTTAGAGAAGTTCTGAAATAATGTTTCTTTTCACTAATTGTCCTAGTTTCCTAATGGAAGTTGGCTTTCTAGAAAGTAACAAATAATTGATACAAGATTATGATGGTGTTAATGAGTTTTTAAAACAGTATTCTAACCAGAATATGAACACTGTTCTAATTTAAGTGACATAATATTGTTCAAAAATGTCTTCGTGTAGATTGTTTTAACAGCTCTTTTGAGCTCTAATTGAAATGCAATAAACTG",
+        "output": "Donor Sites",
+        "model_response": " Acceptor Sites"
+    },
+    {
+        "instruction": "Determine core promoter detection of following dna sequence, The result will be one of the following: Non-promoter, promoter.",
+        "input": "CGGCTTGACTCGGGGGAGCAGCGGGTGGATCCTGTGACGTCAGCGGGTTCGAACCGCCGGAGCTGAGCGA",
+        "output": "promoter",
+        "model_response": "promoter"
+    },
+    {
+        "instruction": "Determine promoter  detection of following dna sequence, The result will be one of the following: Non-promoter, promoter.",
+        "input": "ACATCAAGTTTGAATTTAGAGGTAGGGAATGGGTGATTTCAGGTAGGAAATTACAACTTCACTTTGAAGTTTAATTTTGTAATAAACTTCACTTAATTTTGAAGTAAATTTGCAAAGTCAGCAAAATTCTTTCAAAGTCAACCTTGCTCTGGCCTAGTTGCTTATTTACTGCTAAGCTGGATGTTTTCATTAAAAGATTAACTTTGAGACTTCAGCCTCTTCTTTAGCCTGAACTGTGGGTAGTGATGTGGTGTGTTTCCTAACACCTCCGGCAGTGAGCCAGGCTTTGAGTGGCTGCGT",
+        "output": "promoter",
+        "model_response": "promoter"
+    },
+    {
+        "instruction": "Determine promoter  detection of following dna sequence, The result will be one of the following: Non-promoter, promoter.",
+        "input": "GGAGAGGTGTCGTTAAGAAAGCCAGGACGCACATCACGGCCCCGTCGCTGCACTACTCTCGTCTAGGGGTCAACAGTGGAGTCGAGACTCGAAGCTTCCACGCGGCGGAACAGCGTCCCTCTCAGGCGGCGAACGGGCTAGGGAAGCGCCCGGAGGAGACCTAGCGTGAGAACTACAACTCCCGCGGAGCCCGAGGGCGAGCTGCCTGCGTAACTTCCGCTTCCGCCACCTGCCCCTCTCACCCTCTTCACTCGAACCCTACCCGGGAGCGGTCAGGCGCGTGACCCCGCGTGACCGGGG",
+        "output": "promoter",
+        "model_response": " promoter"
+    },
+    {
+        "instruction": "Determine promoter  detection of following dna sequence, The result will be one of the following: Non-promoter, promoter.",
+        "input": "CCGTAGACGCTCCCAAGTAGAAACCGACATTGGTGCACCTCTTAAATGGAAAGTAGGTTCAACCCCCTACTCCCTGGACGATCGTGGTGTGAAGCTGCGCTGCAGTCACTTGTCCCATTATGAGCCCCTAGACCCAACGGCGAGTTTCTGTCCCCACACTCCCCCCCTGAGATGGCCACCCATCACGCAGGCGCTCATTTGGAGGCAAGTGCGGAGGCGCTGGGTTTCCACACTCGATTGCGCCTACGCGCGTCGCTGGCGGGTCGCGGCTTCCAAGCTCTAAATGGAGAGTTGTCCCTA",
+        "output": "Non-promoter",
+        "model_response": " Non-promoter"
+    },
+    {
+        "instruction": "Determine promoter  detection of following dna sequence, The result will be one of the following: Non-promoter, promoter.",
+        "input": "GTAAGTCAATACCTGGGGCTTGCCTGGGCCAGGGAGCCCAGGACTGGGGTGAGGACTCAGGGGAGCAGGGAGACCACGTCCCAAGATGCCTGTAAAACTGAAACCACCTGGCCATTCTCCAGGTTGAGCCAGACCAATTTGATGGCAGATTTAGCAAATAAAAATACAGGACACCCAGTTAAATGTGAATTTCAGATGAACAGCAAATACTTTTTTAGTATTAAAAAAGTTCACATTTAGGCTCACGCCTGTAATCCCAGCACTTTGGGAGGCCGAGGCAGGCAGATCACCTGAGGTCAG",
+        "output": "Non-promoter",
+        "model_response": "promoter"
+    },
+    {
+        "instruction": "Determine core promoter detection of following dna sequence, The result will be one of the following: Non-promoter, promoter.",
+        "input": "ATAAGTCAGAAGCATTACCATAGGTCACTTCTGAGATCTGGGACATCAACTGCCCGGAGAGTGGCTGGGT",
+        "output": "promoter",
+        "model_response": " Non-promoter"
+    },
+    {
+        "instruction": "Determine promoter  detection of following dna sequence, The result will be one of the following: Non-promoter, promoter.",
+        "input": "GGAAGAAGGATTTTCTAACGTGGACTCCTGTTTGCAGGATCGCTTAGCCATATGACACAAGCGCTCTAGGCAGCCGGAACCTGAGCGTAAATGATGGCACGACAGACATTTCCCTCCCTTTAGGATTTACAGCACAGGATGGTTCTAAGACGGAGGGGCAGGGCCCAGGATTATGGGTCAGGATTAAGACGTTAGATCCAAGGGGTGGAGTGCTACAGACCAGTTTCCACAGACGTTAGAAGACCAAAACGTGTATTGCGCTTTCACGTGTCTCGGGTTCGATATCAGGTTGTCCAACCT",
+        "output": "Non-promoter",
+        "model_response": " Non-promoter"
+    },
+    {
+        "instruction": "Determine core promoter detection of following dna sequence, The result will be one of the following: Non-promoter, promoter.",
+        "input": "CGCACATCCTTGTCCCGGCAGCCGCGCAAGCGCAATCGCCCGGAACATGGCTGCCGCCGGCCGCCAACCG",
+        "output": "promoter",
+        "model_response": "promoter"
+    },
+    {
+        "instruction": "Determine the Transcription Factor Prediction of following dna sequence, The result will be one of the following: Background Sequences, Binding Sites.",
+        "input": "GCGGGCTTTGCAGGATGGCCATGGTGATGAGCGCGATGTACGAGGAGGGGGGCTTTGCCGGCTGCCGGGCATCTTCAGAGGCCGCCGCAGACCTTGGCGGT",
+        "output": "Background Sequences",
+        "model_response": " Binding Sites"
+    },
+    {
+        "instruction": "Determine the Splice Site Prediction of following dna sequence, The result will be one of the following: Non-Splice Sites, Acceptor Sites, Donor Sites",
+        "input": "CTTTCTGGAAAACAAGACACACTGTATCCTGTCCTCATTGGGTTTTTGCTCTGTATTTTGAACCAGGAGGACGTGGGCTGCGAGGAGAAGCTGTACTTTGGCTTGAGTGAGTACAGCAAGTCTCTGCAGTGGGGGATCACGAGCCCACTTCTGAGATGTGACGAGACTTTTGAAAAAATGGTGAACACACTCTTGGAGAGGTAAATAGTAAATAAGGCCTTCTGCTCTTCTCTCTAGCTGTACTTGCAGATCTAAAATAGCCAAAAGCCTTTTGTGTCAGTGCTACGGGGTGTTTGATGGAGCCCTTGCAGATGACGTGCAAAGGCCAAATTAAAACAGCCTTTCCTAAGATGCCCTACTATTGTTTTATGTGATCATCCAAGATCAATAAAGGAAAATA",
+        "output": "Acceptor Sites",
+        "model_response": "Splice Sites"
+    },
+    {
+        "instruction": "Determine the Splice Site Prediction of following dna sequence, The result will be one of the following: Non-Splice Sites, Acceptor Sites, Donor Sites",
+        "input": "CTGCGTGATCCTGGTGACCAACTCCTTTCTCTGACAGTCACTTCTTGGATGGAGTTGCTGCCAATGGCTTTGGCCACGGGGACCCAGACAGTCAAGAGGCCTGCTGCAACCCTGAAGAGTCCTCCCACAGTCTGGCTCCAGGACCACAACATTGGCACACTCCTTTCTACCTGGCTTTGTTTTCTGTGTGTGTTTTGTAGGTAGCCTGGTAGACTCGTCTGGTCATATCCTGGTCCCTGGAATCTATGATGAAGTGGTTCCTCTTACAGAAGAGGAAATAAATACATACAAAGCCATCCATCTAGACCTAGAAGAATACCGGAATAGCAGCCGGGTTGAGAAATTTCTGTTCGATACTAAGGTATGGCCACAGACTGATGGATAAGCTGGAAGAGGCATG",
+        "output": "Non-Splice Sites",
+        "model_response": " Non-Splice Sites"
+    },
+    {
+        "instruction": "Determine the Splice Site Prediction of following dna sequence, The result will be one of the following: Non-Splice Sites, Acceptor Sites, Donor Sites",
+        "input": "CCAGGCGAGGCCTCGTATCCCCAAGTGGGGCTGAGTCCGCCTCAGACACCCTGGGTGGGCTTCTGTCTCTTCGGGGTCCCCCGGGATAGGACTGTGTTCCTCCCAAATGCTGAGGGCAGGATGCCTGTACCCCCACAGCTGATTAGGTGGATGGGGAGGCCAGGTCAGTCCTGACCACTATGTCCTGTTTCTGTAGCAAGCGGTCTCCTGAGGCTGGCTGTGCTGCCTGAGGACCGGCTGCAGATGAAGTGGAGAGAGTCGGAGGGGAGCGGCCTCGGCTACCTGGTGCAGGTGAAGCCCATGGCAGGTGAGGACCTGCCCCTCCCAGGCCCCCTTCCCCATTAGCACGTGCCGAGGACAGTCAGTGTGGTGGCCGCAGCCACCACTCAGGCCCACAGCA",
+        "output": "Donor Sites",
+        "model_response": " Non-Splice Sites"
+    },
+    {
+        "instruction": "Determine the Splice Site Prediction of following dna sequence, The result will be one of the following: Non-Splice Sites, Acceptor Sites, Donor Sites",
+        "input": "CTACCAAAAACAAAACAAAACAAAAAACAAAGCCAGGCATGTGACGTGTGCCTGTAGTTCCAGCTACTTGGAGGCTGAGGCAGGAGGATCACTTGAGGCCAGGAGTTTGAGAGACCCTGTCTCTACAAAAAATTAAAATAAAAACAATAGTAACAGGCACTGAGCCCTGGGCCCTCCCCACTGGCCTTTGCAGTTTGCACTGATGCAGTACTCAAACCTCCTGAAGATCCACTTCACCTTCACCCAATTCCGGACCAGCCCGAGCCAGCAGAGCCTGGTGGATCCCATCGTCCAACTGAAAGGCCTGACGTTCACGGCCACGGGCATCCTGACAGTGGTGTAAGCAACCCCGACCCCAGCCTGGCGATGTGACTGCCACCCCCACTTCCTAACCCTGGGT",
+        "output": "Donor Sites",
+        "model_response": " Donor Sites"
+    },
+    {
+        "instruction": "Determine core promoter detection of following dna sequence, The result will be one of the following: Non-promoter, promoter.",
+        "input": "ATCGACTGTGCCCCACCAGCCGGAACAGTTAAGCTAACGCCAGAGAAAGGCCGGGCCATGATAGCAGGAA",
+        "output": "Non-promoter",
+        "model_response": " Non-promoter"
+    },
+    {
+        "instruction": "Determine promoter  detection of following dna sequence, The result will be one of the following: Non-promoter, promoter.",
+        "input": "CACATCTAGAAAGGGGGCATCTTCGTGGACTAACTAGACCACTGGGGCAGTGAGTGAAACTCGGTATCGTCGCGGCGCCCACACTTAAGATGGCACCGGCCTGAGACTCAGCTGTGCGGCCTCTCTACCTCGGTTCCTGGTTAGTTGGCCTCATTGGTGGCGTCGGAGGGAGGAAGGTGGGCCTTCTGTCCCGTTTCCGGACCCGTCTCTATGGTGTAGGAGAAACCCGGCCCCCAGAAGATTGTGGGTGTAGTGGCCACAGCCTTACAGGCAGGCAGGGGTGGTTGGTGTCAACAGGGG",
+        "output": "promoter",
+        "model_response": "promoter"
+    },
+    {
+        "instruction": "Determine the Transcription Factor Prediction of following dna sequence, The result will be one of the following: Background Sequences, Binding Sites.",
+        "input": "GGAGTGCTTAGGAGCCCAGCGAGGGTGCCTACAAGAGGAGTCAAAGGGCAAAGGGTGAGACCCTTCCACCGGTCCAGCTGGACTCTAGCCTCAGGGACGTC",
+        "output": "Background Sequences",
+        "model_response": " Binding Sites"
+    },
+    {
+        "instruction": "Determine promoter  detection of following dna sequence, The result will be one of the following: Non-promoter, promoter.",
+        "input": "CCTGAGCGGGGAGAGGAGGCCCGCGCGGAGCCCCCGGCGTCCCCCCACGCCGCCTTCCCTCCCCTTTCTTCTTCCCGCCCCTCGCCGGGGGTCGCTGCCCTGGTGTCTCACTCCCGCGGAGCTGGCGGGGGGCAGGGCGGGGGCGCGGCGTTGTTCGCCTTCCCCGAAGTGTGGCCCCGCCGCCGACCCGTAGCCCCGCGTCCGCGTCCCTTTCGGTCTCCAGGCAACCGTGGCCGGGTCCTCGCGGCTGGAGAACCCAACCGACAGTGGGCGGCAGGACGCACCGCGGACCCCGGAGAG",
+        "output": "promoter",
+        "model_response": "promoter"
+    },
+    {
+        "instruction": "Determine promoter  detection of following dna sequence, The result will be one of the following: Non-promoter, promoter.",
+        "input": "TTGCCCTCCTCCTCCCAGTTTCTCCCTCTTATTCCACACTAGACCAGCTTTGTCCACTCAGCACTCTTCTCTCTCCATCTTTTCACATGGGCCTCTCCCACCATCGGGTCTCAGCCCCATCTTCTCTCTCTCTCTCTCTCTCGGCCTCCCTCATTATTTCTCCCTCTCCCTCCGCCTCTCCATCTCTCCTTCCTCCCCCTCCCTCCCCTTCCCCCCTTTCCTCTCCCTCCCTCTCGGCTCCCGCATTTCCCCTCGGCTGCCGGCGGCTCCGACATCATGCTCCGGCTCCTCCGGCCGCTG",
+        "output": "promoter",
+        "model_response": "promoter"
+    },
+    {
+        "instruction": "Determine the Splice Site Prediction of following dna sequence, The result will be one of the following: Non-Splice Sites, Acceptor Sites, Donor Sites",
+        "input": "ATAGGGTTTACTGTTTTTTTTTTTTATTTTTATTTCTCCCTTTTTCATCCTTTTAAACAATTCCTGAAACAATTGGTCTCCAGGGTGATGTGTGGATCTGCATGGAGCTCATGGATACATCACTAGATAAATTCTACAAACAAGTTATTGATAAAGGCCAGACAATTCCAGAGGACATCTTAGGGAAAATAGCAGTTTCTGTGAGTACATTTTGATCCCTACTGCAAGGATAATGTGAGAAATAAAGTCCCTATGTGTCTTTGGACCTCAGTATGAAGAAATACTACCTGGGCCACAGCTACTATTCGTACATGTCTGTTGACATTTATTGGTGGATGGATAAATACATGCTTTCCTTTCTGAGCACTGTGTAGAAGATTCTAGCACTGCTTTGGTTTGG",
+        "output": "Acceptor Sites",
+        "model_response": "Splice Sites"
+    },
+    {
+        "instruction": "Determine promoter  detection of following dna sequence, The result will be one of the following: Non-promoter, promoter.",
+        "input": "CGGAACGAGTGGCGGCGGACAGAGGCTTTTGGCTGCGCTGTCTGTGGGTTGTCTGGGCTTGGGGAACTGGGCACGGAGACCGTGGCGCCGGCCGCCGGTCATACAGCTCTGCTTCCAGTCGTCGGGCAAAAAGCTGAGGCGCTTCTCCTTTAATTGCGGTGGGCGGGGCGTGCCGACGCGGCCCGCGTTGCTATTGGTGGCCGTTGGGGGCGCGGAAACTGAACGGGCCGCAACGGCCACCGCAGCTGCCTTCGGCGCCGCCAGCCCCGCCATGGCTGCGCCCTGCGCGGTAAGCCCAGC",
+        "output": "promoter",
+        "model_response": "promoter"
+    }
+]
